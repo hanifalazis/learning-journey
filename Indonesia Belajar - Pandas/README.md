@@ -1,7 +1,8 @@
-# Indonesia Belajar - Pandas Learning Journey 🐼
+# My Pandas Learning Journey 🐼
+*Following Indonesia Belajar YouTube Series*
 
-> **Learning Progress:** 23/56 Topics Completed ✅
-> 
+> **My Progress:** 23/56 Topics Completed ✅  
+> **Source:** [Indonesia Belajar - Pandas Series](https://www.youtube.com/playlist?list=PL2O3HdJI4voGdD_9xhVCTBoDTDNHpajm5)  
 > **Last Updated:** August 03, 2025
 
 ## 📋 Table of Contents
@@ -37,7 +38,9 @@
 - [`data/iris.csv`](./data/iris.csv) - Iris flower dataset (150 rows)
 - [`data/titanicfull.csv`](./data/titanicfull.csv) - Titanic passenger data (~900 rows)
 
-## 🚀 How to Use
+## 🚀 How to Use This Repository
+
+This repository contains my personal learning notes and practice exercises while following the Indonesia Belajar Pandas series on YouTube.
 
 1. **Clone this repository:**
    ```bash
@@ -55,25 +58,30 @@
    jupyter notebook
    ```
 
-4. **Start learning!** Open any notebook and follow along.
+4. **Follow along!** Each notebook corresponds to a specific video in the series.
 
-## 🎯 Learning Objectives
+## 🎯 Learning Goals
 
-This series covers essential pandas operations including:
+Through this series, I'm learning essential pandas operations including:
 - Data manipulation and cleaning
-- DataFrame operations
+- DataFrame operations  
 - Aggregation and grouping
 - Memory optimization
 - Advanced filtering techniques
 
-## 📝 Notes
+## 📝 My Learning Notes
 
-- Each notebook is self-contained with sample data
-- Code follows Python best practices and PEP 8
-- Examples use real-world datasets when possible
+- Each notebook contains my practice exercises from the corresponding YouTube video
+- Code follows Python best practices and PEP 8 guidelines
+- Examples use real-world datasets (Iris, Titanic) provided in the series
+- Personal comments and insights added throughout the learning process
+
+## 🎥 About Indonesia Belajar
+
+[Indonesia Belajar](https://www.youtube.com/channel/UCQ4Jo2IJeyRGzZBvjaaLzrw) is a fantastic Indonesian YouTube channel that provides high-quality programming tutorials. The Pandas series is comprehensive and perfect for beginners to intermediate learners.
 
 ---
 
-**Happy Learning!** 🎓
+**Keep Learning!** 📚✨
 
-*Generated automatically by `create_index.py` on 2025-08-03 08:09:08*
+*This learning journey is documented automatically by `create_index.py` on 2025-08-03 11:38:57*
