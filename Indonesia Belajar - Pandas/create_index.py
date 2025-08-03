@@ -31,19 +31,23 @@ def create_index():
     
     print("🔍 Scanning for notebook files...")
     
-    # Get all notebook files
+    # Get all notebook files from notebooks directory
+    notebooks_dir = 'notebooks'
     notebook_files = []
-    for file in sorted(os.listdir('.')):
-        if file.endswith('.ipynb') and not file.startswith('.'):
-            notebook_files.append(file)
     
-    print(f"📚 Found {len(notebook_files)} notebook files")
+    if os.path.exists(notebooks_dir):
+        for file in sorted(os.listdir(notebooks_dir)):
+            if file.endswith('.ipynb') and not file.startswith('.'):
+                notebook_files.append(file)
+    
+    print(f"📚 Found {len(notebook_files)} notebook files in {notebooks_dir}/ directory")
     
     # Extract titles and create index
     notebooks_info = []
     for file in notebook_files:
+        file_path = os.path.join('notebooks', file)
         print(f"📖 Processing: {file}")
-        title = extract_title_from_notebook(file)
+        title = extract_title_from_notebook(file_path)
         
         # Extract number from filename for sorting
         match = re.search(r'IB_Pandas(\d+)', file)
@@ -73,7 +77,7 @@ def create_index():
     
     # Add table rows
     for info in notebooks_info:
-        readme_content += f"| {info['number']:02d} | {info['title']} | [`{info['file']}`](./{info['file']}) |\n"
+        readme_content += f"| {info['number']:02d} | {info['title']} | [`{info['file']}`](./notebooks/{info['file']}) |\n"
     
     readme_content += f"""
 ## 📊 Data Files
