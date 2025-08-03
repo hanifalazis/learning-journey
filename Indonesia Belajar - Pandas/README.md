@@ -1,7 +1,7 @@
 # My Pandas Learning Journey 🐼
 *Following Indonesia Belajar YouTube Series*
 
-> **My Progress:** 23/56 Topics Completed ✅  
+> **My Progress:** 30/56 Topics Completed ✅  
 > **Source:** [Indonesia Belajar - Pandas Series](https://www.youtube.com/playlist?list=PL2O3HdJI4voGdD_9xhVCTBoDTDNHpajm5)  
 > **Last Updated:** August 03, 2025
 
@@ -32,6 +32,13 @@
 | 21 | Melakukan agregasi menggunakan `agg()` | [`IB_Pandas21.ipynb`](./notebooks/IB_Pandas21.ipynb) |
 | 22 | Memantau penggunaan memory suatu Data Frame | [`IB_Pandas22.ipynb`](./notebooks/IB_Pandas22.ipynb) |
 | 23 | Seleksi baris pada Data Frame dengan `query()` | [`IB_Pandas23.ipynb`](./notebooks/IB_Pandas23.ipynb) |
+| 24 | UTC dan konversi zona waktu (time zone) pada Python Pandas | [`IB_Pandas24.ipynb`](./notebooks/IB_Pandas24.ipynb) |
+| 25 | Pengaturan tampilan (display option) pada Python Pandas | [`IB_Pandas25.ipynb`](./notebooks/IB_Pandas25.ipynb) |
+| 26 | Membuat Data Frame dari hasil seleksi Spreadsheet | [`IB_Pandas26.ipynb`](./notebooks/IB_Pandas26.ipynb) |
+| 27 | Mengenal fungsi agregasi `first()` dan `last()` | [`IB_Pandas27.ipynb`](./notebooks/IB_Pandas27.ipynb) |
+| 28 | Mengenal `explode` dan `implode` list pada Data Frame | [`IB_Pandas28.ipynb`](./notebooks/IB_Pandas28.ipynb) |
+| 29 | Melakukan random sampling pada Data Frame | [`IB_Pandas29.ipynb`](./notebooks/IB_Pandas29.ipynb) |
+| 30 | Akses nilai variabel pada `query()` | [`IB_Pandas30.ipynb`](./notebooks/IB_Pandas30.ipynb) |
 
 ## 📊 Data Files
 
@@ -84,4 +91,4 @@ Through this series, I'm learning essential pandas operations including:
 
 **Keep Learning!** 📚✨
 
-*This learning journey is documented automatically by `create_index.py` on 2025-08-03 11:38:57*
+*This learning journey is documented automatically by `create_index.py` on 2025-08-03 22:18:39*
