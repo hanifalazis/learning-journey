@@ -84,7 +84,7 @@ def create_index():
 ## 📊 Data Files
 
 - [`data/iris.csv`](./data/iris.csv) - Iris flower dataset (150 rows)
-- [`data/titanicfull.csv`](./data/titanicfull.csv) - Titanic passenger data (~900 rows)
+- [`data/titanicfull.csv`](./data/titanicfull.csv) - Titanic passenger data (1309 rows)
 
 ## 🚀 How to Use This Repository
 
